@@ -1,0 +1,2 @@
+Small integer caching means that Python already has integers -5 through 256 stored at startup. This allows for better performance because these integers are used very often and will already have an id to speed up to process of obtaining these numbers.
+Benefits are that is allows for faster access of these commonly used integers which increases performance.
